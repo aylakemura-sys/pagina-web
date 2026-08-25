@@ -24,7 +24,14 @@
                 margin: 0 auto;
                 padding: 16px;
             }
+            img{
+                width: 80px;
+                height: 80px;
+            }
     
+            .artigo-autor{
+                font-weight: bold;
+            }
     </style>
 </head>
 <body>
@@ -43,11 +50,12 @@
 
         <p>boas vindas ao meu novo blog</p>
         <button> ❤️ <span>0</span></button>
+        <button> 👍🏻 <span>0</span></button>
  </main>
 
 </body>
 <script>
-    const botao = document.querySelector("button");
+    const botao = document.querySelectorAll("button");
     botao.addEventListener("click", botaoClicado);
 
     function botaoClicado(){
