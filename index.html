@@ -68,26 +68,22 @@
             <button> 👍🏻 <span>0</span></button>
         </div>
     </main>
+    
 
-</body>
 <script>
-   const botoes = document.querySelectorAll("button");
+    const botoes = document.querySelectorAll("button");
 
-botoes.forEach(function (botao) {
-    botao.addEventListener("click", function botaoClicado() {
-        let texto = botao.querySelector("span");
-        
-        // Aumenta o contador
-        texto.textContent++; 
-        
-        // Desativa o botão para impedir novos cliques
-        botao.disabled = true; 
+    botoes.forEach(function (botao) {
+        botao.addEventListener("click", function botaoClicado() {
+            let texto = botao.querySelector("span");
+            
+            // Soma +1 no valor do span
+            texto.textContent = Number(texto.textContent) + 1; 
+            
+            // Desativa o botão para não permitir novos cliques
+            botao.disabled = true; 
+        });
     });
-});
-
-        
-
-
 </script>
 
 </html>
