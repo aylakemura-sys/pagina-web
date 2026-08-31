@@ -5,14 +5,13 @@ body {
     color: white;
     font-family: "Playfair Display", serif;
     display: flex;
-    justify-content: center;
+
     align-items: center;
-    height: 700px;
-    margin: 0;
+   
 }
 
 button {
     background-color: #f3deea;
-    color: rgb(240, 198, 229);
+    color: rgb(233, 137, 177);
  
 }
