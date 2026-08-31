@@ -4,7 +4,10 @@ body {
     background-color: #ffe5f5;
     color: white;
     font-family: "Playfair Display", serif;
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }
 
 button {
@@ -12,3 +15,4 @@ button {
     color: rgb(240, 109, 163);
  
 }
+
