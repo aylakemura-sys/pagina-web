@@ -2,8 +2,10 @@ body {
     background-color: #eccadb;
     color: white;
     font-family: "Playfair Display", serif;
+}
 
 button {
-    background-color: #f3dce9;
-    color: rgb(241, 130, 167);
+    background-color: #f1f0f1;
+    color: rgb(231, 154, 180);
       font-family: "Playfair Display", serif;
+}
