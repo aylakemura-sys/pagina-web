@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
     <title>Document</title>
     <style>
         header {
@@ -67,7 +71,7 @@
                 alt="Plano detalhado das pernas de várias bailarinas enfileiradas, vestindo tutus brancos e sapatilhas de ponta, em posicao de danca sobre o palco.">
 
             <div>
-                
+
                 <p> Sejam bem-vindos. Neste artigo, apresentaremos as cinco bailarinas de maior destaque no cenário da
                     dança
                     mundial. </p>
@@ -86,12 +90,12 @@
         function botaoClicado() {
             console.log("fui clicado");
             let texto = botao.querySelector("span");
-            if (curtiu ===false){
+            if (curtiu === false) {
                 texto.textContent++;
                 curtiu = true;
-            } else{ 
+            } else {
                 texto.textContent--;
-                curtiu = false;            
+                curtiu = false;
             }
         }
     })
