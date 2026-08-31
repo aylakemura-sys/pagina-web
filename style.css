@@ -1,15 +1,13 @@
-/* código omitido */
 
 body {
     background-color: #ffe5f5;
     color: white;
     font-family: "Playfair Display", serif;
-    margin: 0;
+    
 }
 
 button {
     background-color: #f79acf;
     color: rgb(240, 109, 163);
- 
 }
 
